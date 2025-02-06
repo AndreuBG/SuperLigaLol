@@ -22,6 +22,8 @@
 ### Jornada
 - Numero
 - Lista partidas
+- Fecha
+- Tipo {regular, quartos, semi, final}
 ### Clasificacion
 - Ranking equipos
 ### Partida
@@ -31,7 +33,6 @@
 - Lista jugadoresEquipo2
 - Ganador
 - Diferencia de oro
-### Playoffs
 
 
 ```plantuml
