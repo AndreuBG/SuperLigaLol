@@ -12,11 +12,38 @@ import java.util.Date;
  * @author andreu
  */
 public class Jornada {
-    
-    public enum TipoJornada {regular, quarto, semi, finales};
-    
-    int numero;
-           ArrayList<Partido> partidos;
-           Date fecha;
-           TipoJornada tipo;
+
+    public enum TipoJornada {
+        regular, quarto, semi, finales
+    };
+
+    private int numero;
+    private ArrayList<Partido> partidos;
+    private Date fecha;
+    private TipoJornada tipo;
+
+    public Jornada(int numero, ArrayList<Partido> partidos, Date fecha, TipoJornada tipo) {
+        this.numero = numero;
+        this.partidos = partidos;
+        this.fecha = fecha;
+        this.tipo = tipo;
+    }
+
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public ArrayList<Partido> getPartidos() {
+        return partidos;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public TipoJornada getTipo() {
+        return tipo;
+    }
+
 }

@@ -10,8 +10,38 @@ package com.abg.superliga;
  */
 public class Entrenador {
 
-    String nombre;
-    String apellido;
-    String nickname;
-    int edad;
+    private String nombre;
+    private String apellido;
+    private String nickname;
+    private int edad;
+
+    public Entrenador(String nombre, String apellido, String nickname, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nickname = nickname;
+        this.edad = edad;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    
+    
 }
